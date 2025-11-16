@@ -21,4 +21,4 @@ message = f'Day {day} for the month {month}'
 if day_ok:
     print(f'{message} is correct')
 else:
-    print('Day IS NOT correct!!!')
+    print(f'{message} IS NOT correct!!!')

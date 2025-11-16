@@ -4,7 +4,7 @@
 #
 basic_salary = 5_000
 total_salary = 0
-bonus = 0.30 # 15%
+bonus = 0.15 # 15%
 is_bonus = input('Does the employee receive a bonus? (Y/N):') == 'Y'
 
 if is_bonus:

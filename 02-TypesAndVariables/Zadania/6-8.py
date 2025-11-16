@@ -7,7 +7,11 @@ last = input('Enter second letter: ')
 first_letter_code = ord(first)
 second_letter_code = ord(last)
 
-number_of_letters = second_letter_code - first_letter_code + 1
+number_of_letters = abs(second_letter_code - first_letter_code) - 1
+
+if number_of_letters < 0:
+    number_of_letters = 0
+
 print(f"{first} is {first_letter_code}")
 print(f"{last} is {second_letter_code}")
 print(f'Between {first} and {last} is {number_of_letters} letters')

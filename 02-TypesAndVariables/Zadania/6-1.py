@@ -4,7 +4,6 @@
 #
 name = 'Artem'   # replace Anna with your name
 surname = 'Yevtushenko' # replace May with your surname
-characters_in_name = len(name)
-print(f'Your name has {characters_in_name} characters')
+print(f'Your name has {len(name)} characters')
 print(f'Your surname has {len(surname)} characters') 
 print(f"Your full name has {len(name + ' ' + surname)} characters") # with a space between name and surname

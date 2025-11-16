@@ -17,6 +17,6 @@ else:
     print("Incorrent driving mode")
     exit(1)
 
-total_consumption = (fuel_consumption / 100) * distance
+total_consumption = distance / 100 * fuel_consumption 
 print(f'Total fuel consumption over a distance of {distance} km in driving mode {driving_mode} is {int(total_consumption)} liters')
 
