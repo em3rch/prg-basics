@@ -1,5 +1,3 @@
-import math
-
 ###
 # Program for testing built-in functions
 #
@@ -15,7 +13,7 @@ print('The number of characters in "computer science" is', str_length)
 letter = input("letter: ")
 print(f"Letter: {letter}")
 
-num = str("20303")
+num = str(20303)
 print(f"number: {num}")
 
 binary_num = bin(304)

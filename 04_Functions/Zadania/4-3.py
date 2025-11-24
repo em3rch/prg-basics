@@ -11,4 +11,4 @@ def triangle_area(a: int, b: int, c: int) -> float:
 
 a, b, c = map(int, input("Enter 3 sides separated by space: ").split())
 
-print(f"The area of a triangle with sides a = {a}, b = {b}, c = {c} is {triangle_area(a, b, c)}")
+print(f"The area of a triangle with sides a = {a}, b = {b}, c = {c} is {int(triangle_area(a, b, c))}")
