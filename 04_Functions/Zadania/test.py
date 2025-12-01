@@ -1,5 +1,5 @@
-def foo(a, b, c, d):
-    return a, b, c, d
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+print([x for x in fruits if 'a' in x])
 
 
-foo(1, 2, 3, 4)
